@@ -1,0 +1,51 @@
+.post {
+  margin: 0.8rem 0;
+  border: 1px solid #3b0062;
+  border-radius: 5px;
+}
+
+.post_title_div {
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+
+.post__meta {
+  font-size: 1rem;
+  color: #707070;
+  margin: 0;
+}
+
+.post__title {
+  font-family: "Noto Sans JP";
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1rem;
+  color: #3b0062;
+}
+
+.post__image {
+  height: 15rem;
+  width: 100%;
+}
+
+.post__actions {
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .post {
+    padding: 1rem;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .post__meta {
+    margin: 0.5rem;
+  }
+
+  .post__title {
+    margin: 0 0.5rem 0.5rem;
+  }
+}
